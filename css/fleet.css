@@ -258,6 +258,84 @@
 }
 
 
+.apply{
+  width: fit-content;
+  margin-right: auto ;
+  }
+
+  .apply p{
+    font-size: large;
+    margin-block-start: 3rem !important;
+    margin-block-end: 3rem !important;
+  }
+
+  form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(340px, 1fr));
+    gap: 10px;
+
+  }
+
+  form h2{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: x-large;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: var(--main-blue);
+    margin-left:-8%;
+  }
+
+  form input{
+    /* width: 100%; */
+    border-radius: 6px;
+    padding: 8px;
+    outline: none;
+  }
+
+  form input:focus{
+    border : solid var(--main-blue) 2px;
+  }
+
+  form .submit{
+    background:#F79D1E;
+    border:none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  form .submit:hover{
+    transition: all 0.5s ease-in-out;
+    background: #FFC4A5;
+  }
+
+
+  select{
+    width: 100% !important;
+    border-radius: 6px;
+    padding: 8px;
+  }
+
+  select:focus{
+    outline : none ;
+  }
+  select option{
+    font-size: .9rem;
+    }
+
+select option:hover{
+  background: rgba(3, 169, 244,.2)!important;
+
+}
+
+
+
 
      /* styling the footer */
      footer {
